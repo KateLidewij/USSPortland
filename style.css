@@ -1,0 +1,47 @@
+html{
+	width: 1000px;
+}
+
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+nav {
+	width: 1000px;
+}
+nav a {
+	background-color: #0d3b6e;
+	color: #ffffff;
+	height: 84px;
+}
+nav a.hover a.active {
+	background-color: #282828;
+	color: #ffffff;
+}
+section {
+	width: 800px;
+}
+p {
+	font-size: 15px;
+}
+p.center {
+	text-align: center;
+}
+div {
+}
+footer {
+}
+h1 {
+	font-size: 40px;
+	text-align: center;
+}
+h3 {
+	font-size: 20px;
+	text-align: center;
+}
+a.link a.visited{
+	text-decoration: none;
+
+}
+li {
+	list-style: none;
+}
