@@ -21,21 +21,23 @@ section {
 	width: 800px;
 }
 p {
-	font-size: 15px;
+	
 }
 p.center {
 	text-align: center;
+}
+p.italic {
+	font-style: italic;
 }
 div {
 }
 footer {
 }
 h1 {
-	font-size: 40px;
 	text-align: center;
+	color: #0d3b6e;
 }
 h3 {
-	font-size: 20px;
 	text-align: center;
 }
 a.link a.visited{
