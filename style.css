@@ -32,9 +32,13 @@ body {
 	text-decoration: none;
 	color: #000000;
 }
+#sidebar img {
+	padding-top: 5px;
+}
 section {
-	width: 900px;
-	margin: auto;
+	width: 800px;
+	margin-left: auto;
+	margin-right: 400px
 }
 section.content {
 	text-decoration: none;
@@ -46,8 +50,6 @@ p.center {
 p.italic {
 	font-style: italic;
 }
-div {
-}
 footer {
 	text-align: center;
 	background-color: #0d3b6e;
@@ -55,6 +57,7 @@ footer {
 	border-top: 3px solid #282828;
 	padding-top: 10px;
 	color: #ffffff;
+	margin-top: 20px;
 }
 footer a{
 	color: #ffffff;
@@ -62,6 +65,8 @@ footer a{
 h1 {
 	text-align: center;
 	color: #0d3b6e;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 h3 {
 	text-align: center;
@@ -80,12 +85,38 @@ li {
 #header {
 	height: 84px;
 	background-color: #0d3b6e;
+	padding-left: 20px;
 }
 #banner {
 	margin: auto;
 	width: 800px;
+	padding-bottom: 20px;
+	padding-bottom: 20px;
 }
 #awards {
 	margin: auto;
-	width: 400px;
+}
+#red {
+	color: #bb0000;
+	text-align: center;
+}
+#yellow {
+	color: #b0b000;
+	text-align: center;
+}
+#teal {
+	color: #00b0b0;
+	text-align: center;
+}
+#purple {
+	color: #b000b0;
+	text-align: center;
+}
+#grey {
+	color: #555555;
+	text-align: center;
+}
+#msd {
+	float: right;
+	padding-right: 80px 
 }

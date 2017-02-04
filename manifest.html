@@ -11,11 +11,11 @@
 </head>
 <body>
 <header>
-<a href="index.html"><div><h3>USS Portland - NCC40424</h3></div></a>
-<img src="images/index/banner.jpg" width="805" height="250" alt="USS Portland Banner"/>
-<nav>
+<div id="header"><a href="index.html"><img id="header" src="images/index/header.png" width="240" height="84" alt="USS Portland Header"/></a></div>
+<div id="banner"><img src="images/index/banner.jpg" width="800" height="250" alt="USS Portland Banner"/></div>
+<nav id="main">
 <a href="index.html">Home</a>
-<a href="http://forum.ussportland.net/" target="_blank">Forum</a>
+<a href="http://104.207.159.135:4567/" target="_blank">Forum</a>
 <a href="manifest.html">Manifest</a>
 <a href="ship.html">Ship</a>
 <a href="missions.html">Missions</a>
@@ -24,8 +24,23 @@
 <a href="joinus.html">Join us!</a>
 </nav>
 </header>
-<h1 id="top">USS Portland Crew Manifest</h1>
-<section class="content"><b>Departments:</b>
+<nav id="sidebar">
+<h4>Active Missions:</h4>
+<a href="http://forum.ussportland.net/viewtopic.php?f=11&t=503">Mission 8</br>"The Freighters of Acquisition"</a></br>
+<a href="http://forum.ussportland.net/viewtopic.php?f=11&t=504">Mission 9</br>"Cold Case"</a>
+<h4>Other pages:</h4>
+<a href="science_database.html">Science Database</a></br>
+<a href="rules.html">Rules &amp; Regulations</a></br>
+<a href="mentor_program.html">Mentor Program</a></br>
+<a href="credits.html">Credits</a></br>
+<a href="contact">Contact us</a></br>
+<h4>We are part of:</h4>
+<a href="http://tf72.obsidianfleet.net/"><img src="images/index/72a.png" width="150" height="150" alt="72A Logo"></a>
+<a href="http://www.obsidianfleet.net/index.php"><img src="images/index/fleet.png" width="150" height="172" alt="Fleet"></a>
+</nav>
+<section class="content">
+<h1 id="top">Crew Manifest</h1>
+<b>Departments:</b>
 <a href="#Command">Command</a> - 
 <a href="#Flight ops">Flight Control</a> - 
 <a href="#Operations">Operations</a> - 
@@ -38,7 +53,7 @@
 <a href="#Civilian">Civilian Affairs</a> - 
 <a href="#Starfleet">Starfleet</a>
 </section>
-<section id="Command"><h3>Command</h3>
+<section id="Command"><h3 id="red">Command</h3>
 <p><img src="images/manifest/r-o6.png" width="128" height="32" alt="r-o6"><b> Commanding Officer:</b> Alenis Meru</p>
 <p><img src="images/manifest/r-o5.png" width="128" height="32" alt="r-o5"><b> Executive Officer:</b> Timothy Rouse</p>
 <p><img src="images/manifest/v-o4.png" width="128" height="32" alt="v-o4"><b> Second Officer:</b> Tyrlai Zade</p>
@@ -46,24 +61,24 @@
 <p><img src="images/manifest/r-e1.png" width="128" height="32" alt="r-e1"><b> Captain's Yeoman:</b> Abdel al-Nablusi (NPC Meru)</p>
 <p><img src="images/manifest/r-e7.png" width="128" height="32" alt="r-e7"><b> XO's Yeoman:</b> Ina Nap (NPC Rouse)</p>
 </section>
-<section id="Flight ops"><h3>Flight Control</h3>
+<section id="Flight ops"><h3 id="red">Flight Control</h3>
 <p><img src="images/manifest/r-blank.png" width="128" height="32" alt="r-blank"><b> Chief Flight Control Officer:</b> <a href="joinus.html">Open</a></p>
 <p><img src="images/manifest/r-blank.png" width="128" height="32" alt="r-blank"><b> Asst. Chief Flight Control Officer:</b> <a href="joinus.html">Open</a></p>
 <p><img src="images/manifest/r-o1.png" width="128" height="32" alt="r-o1"><b> Flight Control Officer:</b> Kat Steel (NPC)</p>
 <p><img src="images/manifest/r-o1.png" width="128" height="32" alt="r-o1"><b> Flight Control Officer:</b> Bott (NPC)</p>
 </section>
-<section id="Operations"><h3>Operations</h3>
+<section id="Operations"><h3 id="yellow">Operations</h3>
 <p><img src="images/manifest/y-o2.png" width="128" height="32" alt="y-o2"><b> Chief Operations Officer:</b> Marcus Kallan</p>
 <p><img src="images/manifest/y-blank.png" width="128" height="32" alt="y-blank"><b> Asst. Chief Operations Officer:</b> <a href="joinus.html">Open</a></p>
 <p><img src="images/manifest/y-o1.png" width="128" height="32" alt="y-o1"><b> Operations Officer (Waste Reclamation):</b> Jennifer Duvall (NPC Kallan)</p>
 <p><img src="images/manifest/y-e1.png" width="128" height="32" alt="y-e1"><b> Senior Stores Crewman:</b> Angela McKenzie (NPC Beauvoir)</p>
 </section>
-<section id="Tactical"><h3>Tactical</h3>
+<section id="Tactical"><h3 id="yellow">Tactical</h3>
 <p><img src="images/manifest/y-o3.png" width="128" height="32" alt="y-o3"><b> Chief Tactical Officer:</b> Arthur Couer-Reynolds</p>
 <p><img src="images/manifest/y-blank.png" width="128" height="32" alt="y-blank"><b> Asst. Chief Tactical Officer:</b> <a href="joinus.html">Open</a></p>
 <p><img src="images/manifest/y-o1.png" width="128" height="32" alt="y-o1"><b> Tactical Officer :</b> James Burton (NPC Rouse)</p>
 </section>
-<section id="Security"><h3>Security</h3>
+<section id="Security"><h3 id="yellow">Security</h3>
 <p><img src="images/manifest/y-o2.png" width="128" height="32" alt="y-o2"><b> Chief Security Officer:</b> Ash Sullivan</p>
 <p><img src="images/manifest/y-blank.png" width="128" height="32" alt="y-blank"><b> Asst. Chief Security Officer:</b> <a href="joinus.html">Open</a></p>
 <p><img src="images/manifest/y-o1.png" width="128" height="32" alt="y-o1"><b> Security Officer:</b> Gregory Rathcliffe (NPC)</p>
@@ -71,13 +86,13 @@
 <p><img src="images/manifest/y-e7.png" width="128" height="32" alt="y-e7"><b> Master-at-Arms:</b> Syalla Coren (NPC Rouse)</p>
 <p><img src="images/manifest/y-e5.png" width="128" height="32" alt="y-e5"><b> Security Crewman:</b> Zirra Kajat(NPC Beauvoir)</p>
 </section>
-<section id="Engineering"><h3>Engineering</h3>
+<section id="Engineering"><h3 id="yellow">Engineering</h3>
 <p><img src="images/manifest/y-o2.png" width="128" height="32" alt="y-o2"><b> Chief Engineering Officer:</b> Sera Wiliams</p>
 <p><img src="images/manifest/y-blank.png" width="128" height="32" alt="y-blank"><b> Asst. Chief Engineering Officer:</b> <a href="joinus.html">Open</a></p>
 <p><img src="images/manifest/y-o1.png" width="128" height="32" alt="y-o1"><b> Systems Engineer:</b> Nikki Barclay (NPC Meru)</p>
 <p><img src="images/manifest/y-e4.png" width="128" height="32" alt="y-e4"><b> Structural Engineer:</b> Ferguson (NPC Beauvoir)</p>
 </section>
-<section id="Medical"><h3>Medical</h3>
+<section id="Medical"><h3 id="teal">Medical</h3>
 <p><img src="images/manifest/t-blank.png" width="128" height="32" alt="t-blank"><b> Chief Medical Officer:</b> <a href="joinus.html">Open</a></p>
 <p><img src="images/manifest/t-blank.png" width="128" height="32" alt="t-blank"><b> Asst. Chief Medical Officer:</b> <a href="joinus.html">Open</a></p>
 <p><img src="images/manifest/t-e5.png" width="128" height="32" alt="t-e5"><b> Nurse:</b> Ellen Washington (NPC Rouse)</p>
@@ -85,24 +100,24 @@
 <p><img src="images/manifest/t-blank.png" width="128" height="32" alt="t-blank"><b> EMH Mark 1:</b> "Holo-Meru" (NPC Meru)</p>
 <p><img src="images/manifest/t-o2.png" width="128" height="32" alt="t-o2"><b> Chief Counselor:</b> Delainey Carlisle</p>
 </section>
-<section id="Science"><h3>Science</h3>
+<section id="Science"><h3 id="teal">Science</h3>
 <p><img src="images/manifest/t-o3.png" width="128" height="32" alt="t-o3"><b> Chief Science Officer:</b> Jason Beauvoir</p>
 <p><img src="images/manifest/t-o1.png" width="128" height="32" alt="t-o1"><b> Asst. Chief Science Officer:</b> Jeremy Grossnick (NPC Beauvoir)</p>
 <p><img src="images/manifest/t-o1.png" width="128" height="32" alt="t-o1"><b> Materials Chemist:</b> Teneca Quinn (NPC Beauvoir)</p>
 </section>
-<section id="Diplo"><h3>Diplomatic/Intelligence</h3>
+<section id="Diplo"><h3 id="purple">Diplomatic/Intelligence</h3>
 <p><img src="images/manifest/v-o4.png" width="128" height="32" alt="v-o4"><b> Chief Diplomatic Officer:</b> Tyrlai Zade</p>
 <p><img src="images/manifest/v-e5.png" width="128" height="32" alt="v-e5"><b> Diplomatic Aide:</b> Andrev Thosk (NPC Zade)</p>
 <p><img src="images/manifest/b-blank.png" width="128" height="32" alt="blank"><b> Intelligence Officer:</b> <a href="joinus.html"> Open</a></p>
 </section>
-<section id="Civilian"><h3>Civilian Affairs</h3>
+<section id="Civilian"><h3 id="grey">Civilian Affairs</h3>
 <p><img src="images/manifest/w-blank.png" width="128" height="32" alt="blank"><b> Teacher:</b> <a href="joinus.html">Open</a></p>
 <p><img src="images/manifest/w-blank.png" width="128" height="32" alt="blank"><b> Chief Morale Officer &amp; Captain's pet bird:</b> Ko-ko</p>
 <p><img src="images/manifest/w-blank.png" width="128" height="32" alt="blank"> Devon Avit, son of Syalla Coren (NPC Rouse)</p>
 <p><img src="images/manifest/w-blank.png" width="128" height="32" alt="blank"> Coln Jena, daughter of Jason Beauvoir (NPC Beauvoir)</p>
 <p><img src="images/manifest/w-blank.png" width="128" height="32" alt="blank"> Andrew  Rouse, son of Timothy Rouse &amp; Ellen Washington (NPC Rouse)</p>
 </section>
-<section id="Starfleet"><h3>Starfleet</h3>
+<section id="Starfleet"><h3 id="red">Starfleet</h3>
 <p><img src="images/manifest/r-a4.png" width="128" height="32" alt="r-a4">Admiral Washington, Commanding Officer DS9 &amp; father of Ellen Washington (NPC)</p>
 <p><img src="images/manifest/r-a4.png" width="128" height="32" alt="r-a4">Admiral Cresswell (NPC Beauvoir)</p>
 <p><img src="images/manifest/r-a4.png" width="128" height="32" alt="r-a4">Admiral Anderson (NPC Beauvoir)</p>
@@ -110,7 +125,7 @@
 <p><img src="images/manifest/r-o6.png" width="128" height="32" alt="r-o6">Captain S'rress, Commanding Officer USS Fox (NPC Meru)</p>
 <p><img src="images/manifest/t-o5.png" width="128" height="32" alt="t-o5">Commander Shras, Head of Project Mongoose (NPC Meru)</p>
 </section>
-<footer><hr>
+<footer>
 <p>USS Portland 2017 &copy; - <a href="#top">back to top</a></p>
 </footer>
 </body>
