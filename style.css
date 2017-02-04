@@ -43,12 +43,8 @@ section {
 section.content {
 	text-decoration: none;
 }
-p.center {
-	text-align: center;
+p {
 	padding-bottom: 10px;
-}
-p.italic {
-	font-style: italic;
 }
 footer {
 	text-align: center;
@@ -119,4 +115,10 @@ li {
 #msd {
 	float: right;
 	padding-right: 80px 
+}
+#italic {
+ 	font-style: italic; 
+}
+#mission_banner {
+	padding-left: 100px;
 }
