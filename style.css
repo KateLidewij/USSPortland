@@ -3,21 +3,16 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
-html{
-
-}
-
 body {
 	font-family: Tahoma, Geneva, sans-serif;
 }
-nav {
+#main {
 	background-color: #0d3b6e;
-	margin-right: 300px;  
-	margin-left: 300px;
+	margin: auto;  
 	width: 800px;
 	height: 30px;
 }
-nav a {
+#main a {
 	background-color: #0d3b6e;
 	color: #ffffff;
 	text-decoration: none;
@@ -26,26 +21,27 @@ nav a {
 	padding-right: 20px;
 	padding-top: 2px;
 }
-nav a:hover a:active {
-	background-color: #282828;
-	color: #ffffff;
+#sidebar{
+	float: right;
+	text-align: center;
+	width: 230px;
+	border: 3px solid #282828;
+	margin: 20px;
+}
+#sidebar a {
+	text-decoration: none;
+	color: #000000;
 }
 section {
-	margin-right: 250px;  
-	margin-left: 250px;
-	margin-top: 25px;
-	margin-bottom: 25px;
 	width: 900px;
-
+	margin: auto;
 }
 section.content {
 	text-decoration: none;
 }
-p {
-	
-}
 p.center {
 	text-align: center;
+	padding-bottom: 10px;
 }
 p.italic {
 	font-style: italic;
@@ -73,6 +69,11 @@ h3 {
 	padding-bottom: 10px;
 	padding-top: 10px;
 }
+h4 {
+	background-color: #0d3b6e;
+	color: #ffffff;
+	border-bottom: 3px solid #282828;
+}
 li {
 	list-style: none;
 }
@@ -81,10 +82,10 @@ li {
 	background-color: #0d3b6e;
 }
 #banner {
-	margin-right: 300px;  
-	margin-left: 300px;
+	margin: auto;
+	width: 800px;
 }
 #awards {
-	margin-left: 500px;
+	margin: auto;
 	width: 400px;
 }
