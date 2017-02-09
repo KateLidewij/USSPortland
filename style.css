@@ -40,8 +40,9 @@ section {
 	margin-left: auto;
 	margin-right: 400px
 }
-section.content {
+#content {
 	text-decoration: none;
+	color: #000000;
 }
 p {
 	padding-bottom: 10px;
@@ -75,8 +76,12 @@ h4 {
 	color: #ffffff;
 	border-bottom: 3px solid #282828;
 }
-li {
+ul {
 	list-style: none;
+}
+ol {
+	list-style: 1;
+	padding-left: 20px;
 }
 #header {
 	height: 84px;
@@ -121,4 +126,10 @@ li {
 }
 #mission_banner {
 	padding-left: 100px;
+}
+#code {
+	border: 1px solid #282828;
+	width: 400px;
+	margin-left: 20px;
+	margin-bottom: 10px;
 }
