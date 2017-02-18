@@ -106,7 +106,7 @@ a,
 a:link,
 a:visited,
 a:hover {
-  color: #000;
+  color: #f90;
   text-decoration: none;
   font-weight: bold;
 }
@@ -175,6 +175,12 @@ a:hover {
 }
 .left {
   float: left;
+}
+.italic {
+  font-style: italic; 
+}
+.clear {
+  clear: both;
 }
 h1 {
   font-size: 270%;
