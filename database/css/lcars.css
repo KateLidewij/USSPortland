@@ -181,6 +181,31 @@ a:hover {
 }
 .clear {
   clear: both;
+  float: left;
+}
+.top {
+  padding-top: 50px;
+}
+.button {
+  margin: 10px 5px;
+  clear: both;
+  float: left;
+}
+.img {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.move {
+  margin-left: 20px;
+}
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+p.sub {
+  clear: both;
+  font-style: italic; 
+  float: right;
 }
 h1 {
   font-size: 270%;
@@ -189,22 +214,30 @@ h1 {
 h2 {
   font-size: 240%;
   font-weight: bold;
+  margin: 10px 0px;
 }
 h3 {
   font-size: 200%;
   font-weight: bold;
+  margin: 10px 0px;
 }
 h4 {
   font-size: 180%;
   font-weight: bold;
+  margin: 10px 0px;
+  color: #f90;
 }
 h5 {
   font-size: 160%;
   font-weight: bold;
+  margin: 10px 0px;
+  color: #f90;
 }
 h6 {
-  font-size: 140%;
+  font-size: 120%;
   font-weight: bold;
+  margin: 10px 0px;
+  color: #f90;
 }
 .lcars-container {
   background: #000;

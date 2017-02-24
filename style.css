@@ -151,9 +151,7 @@ h3 a {
 #sisterships {
 	padding-left: 150px;
 }
-a:visited {
+
+a {
 	color: #0d3b6e;
-}
-a:hover {
-	color: #282828;
 }
