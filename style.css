@@ -23,20 +23,18 @@ body {
 	border: 2px solid #282828;
 	padding-top: 8px ;
 	padding-left: 30px;
+	text-align: center;
 }
 #main a {
 	background-color: #0d3b6e;
 	color: #ffffff;
 	text-decoration: none;
 	text-align: center;
-	padding: 0px 20px;
+	padding: 0px 40px;
 	vertical-align: center;
 }
 #main a:hover {
 	color: #282828;
-}
-#main a:visited {
-	color: #ffffff;
 }
 #sidebar{
 	float: right;
@@ -52,9 +50,6 @@ body {
 }
 #sidebar a:hover {
 	color: #ff8000;
-}
-#sidebar a:visited {
-	color: #000000;
 }
 #sidebar img {
 	padding-top: 5px;
