@@ -200,3 +200,23 @@ a {
 		margin: 20px 5%;
 		padding: 0px;
 }
+th {
+	color: #0d3b6e;
+	font-size: 110%;
+}
+
+tr {
+	text-align: left;
+	
+}
+
+#head {
+		margin: 10px;
+		text-align: center;
+}
+
+#readmore {
+	color: #0066cc;
+	font-style: italic;
+	text-align: right;
+}
